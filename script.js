@@ -21,7 +21,7 @@ bt1.addEventListener('click', (cor1) => {
   bt2.className = 'color'
   bt3.className = 'color'
   bt4.className = 'color'
-  corSelecionada = cor1
+  corSelecionada = 'black'
   
 })
 bt2.addEventListener('click', (cor2) => {
@@ -48,22 +48,6 @@ bt4.addEventListener('click', (cor4) => {
   corSelecionada = 'green'
   
 })
-function newPallete() {
-  geraCorPaleta("black");
-  document.getElementsByClassName("color")[0].className =
-    "color selected black";
-  document.getElementsByClassName("color")[0].id = "bt1";
-
-  geraCorPaleta();
-  document.getElementsByClassName("color")[1].id = "bt2";
-
-  geraCorPaleta();
-  document.getElementsByClassName("color")[2].id = "bt3";
-  cor02 = document.getElementsByClassName("color")[2].style.backgroundColor;
-
-  geraCorPaleta();
-  document.getElementsByClassName("color")[3].id = "bt4";
-}
 
 let paletaCores = document.getElementById("color-pallette");
 
@@ -137,3 +121,20 @@ let geraTabela = document
   
 
   console.log(corSelecionada);
+
+  // function newPallete() {
+//   geraCorPaleta("black");
+//   document.getElementsByClassName("color")[0].className =
+//     "color selected black";
+//   document.getElementsByClassName("color")[0].id = "bt1";
+
+//   geraCorPaleta();
+//   document.getElementsByClassName("color")[1].id = "bt2";
+
+//   geraCorPaleta();
+//   document.getElementsByClassName("color")[2].id = "bt3";
+//   cor02 = document.getElementsByClassName("color")[2].style.backgroundColor;
+
+//   geraCorPaleta();
+//   document.getElementsByClassName("color")[3].id = "bt4";
+// }
