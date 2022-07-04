@@ -1,0 +1,40 @@
+h1 {
+    margin: 100px 0 50px 100px;
+}
+#color-pallette {
+    margin-left: 100px;
+}
+.color {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+#clear-board {
+    margin-left:100px;
+    margin-top: 20px;
+    
+
+}
+#pixel-board {
+    margin-top: 30px;
+    margin-left: 50px;
+    --size: 5;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(var(--size),0fr);
+    grid-template-rows: repeat(var(--size), 0fr);
+    
+    
+
+}
+.pixel {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    
+}
+.black {
+    background-color: black;
+}
