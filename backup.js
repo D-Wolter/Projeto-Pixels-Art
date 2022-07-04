@@ -2,19 +2,15 @@ let bt1 = document.getElementById('bt1');
 let cor1 = bt1.style.backgroundColor;
 
 let bt2 = document.getElementById('bt2');
-let cor2 = bt2.style.backgroundColor;
-cor2 = gerar_cor_hex()
-bt2.style.backgroundColor = cor2
+let cor2 = bt1.style.backgroundColor;
+
 
 let bt3 = document.getElementById('bt3');
-let cor3 = bt3.style.backgroundColor;
-cor3 = gerar_cor_hex()
-bt3.style.backgroundColor = cor3
+let cor3 = bt1.style.backgroundColor;
 
 let bt4 = document.getElementById('bt4');
-let cor4 = bt4.style.backgroundColor;
-cor4 = gerar_cor_hex()
-bt4.style.backgroundColor = cor4
+let cor4 = bt1.style.backgroundColor;
+
 let corSelecionada = 'black';
 
 function setarSelecionada(c) {
@@ -33,21 +29,21 @@ bt2.addEventListener('click', () => {
   bt2.className = 'color selected';
   bt3.className = 'color';
   bt4.className = 'color';
-  corSelecionada = cor2;
+  corSelecionada = 'red';
 });
 bt3.addEventListener('click', () => {
   bt1.className = 'color';
   bt2.className = 'color';
   bt3.className = 'color selected';
   bt4.className = 'color';
-  corSelecionada = cor3;
+  corSelecionada = 'blue';
 });
 bt4.addEventListener('click', () => {
   bt1.className = 'color';
   bt2.className = 'color';
   bt3.className = 'color';
   bt4.className = 'color selected';
-  corSelecionada = cor4;
+  corSelecionada = 'green';
 });
 
 let paletaCores = document.getElementById('color-pallette');
@@ -91,7 +87,7 @@ function populate(size) {
 }
 
 function init() {
-  
+  newPallete();
   populate(5);
 }
 
@@ -126,3 +122,20 @@ let geraTabela = document
   });
 
 window.onload = init;
+
+// function newPallete() {
+//   geraCorPaleta("black");
+//   document.getElementsByClassName("color")[0].className =
+//     "color selected black";
+//   document.getElementsByClassName("color")[0].id = "bt1";
+
+//   geraCorPaleta();
+//   document.getElementsByClassName("color")[1].id = "bt2";
+
+//   geraCorPaleta();
+//   document.getElementsByClassName("color")[2].id = "bt3";
+//   cor02 = document.getElementsByClassName("color")[2].style.backgroundColor;
+
+//   geraCorPaleta();
+//   document.getElementsByClassName("color")[3].id = "bt4";
+// }
