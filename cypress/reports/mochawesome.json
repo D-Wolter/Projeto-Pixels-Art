@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2022-07-04T18:01:54.329Z",
-    "end": "2022-07-04T18:02:11.204Z",
-    "duration": 16875,
+    "start": "2022-07-04T18:20:09.452Z",
+    "end": "2022-07-04T18:20:24.778Z",
+    "duration": 15326,
     "testsRegistered": 41,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "3953d266-157b-4758-b9f7-60fe256f3af9",
+      "uuid": "3fd007fa-7b14-413e-93c3-b37011f584d8",
       "title": "",
       "fullFile": "cypress/integration/project.spec.js",
       "file": "cypress/integration/project.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ebb52cf2-6d98-48bd-94b2-fc9c5e83dc99",
+          "uuid": "15edaf32-4cd8-4289-8906-e3e3f46f32a5",
           "title": "1 - Adicione à página o título \"Paleta de Cores\".",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "fullTitle": "1 - Adicione à página o título \"Paleta de Cores\". Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "timedOut": null,
-              "duration": 1623,
+              "duration": 2082,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -48,11 +48,11 @@
               "code": "cy.get('h1#title').should('contain.text', 'Paleta de Cores');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "fc66b30f-3da6-4791-afb5-75e054668c3e",
-              "parentUUID": "ebb52cf2-6d98-48bd-94b2-fc9c5e83dc99",
+              "uuid": "4d4e54d2-4dda-4024-87af-244daa48a083",
+              "parentUUID": "15edaf32-4cd8-4289-8906-e3e3f46f32a5",
               "isHook": false,
               "skipped": false
             }
@@ -60,17 +60,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "fc66b30f-3da6-4791-afb5-75e054668c3e"
+            "4d4e54d2-4dda-4024-87af-244daa48a083"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1623,
+          "duration": 2082,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4dae496d-a57c-485e-903b-c93985b01d55",
+          "uuid": "65e29266-76e5-4370-9a48-42d3a203e424",
           "title": "2 - Adicione à página uma paleta de quatro cores distintas.",
           "fullFile": "",
           "file": "",
@@ -81,7 +81,7 @@
               "title": "A paleta de cores deve ser um elemento com `id` denominado `color-palette` e ter mais de 0px de altura e de largura.",
               "fullTitle": "2 - Adicione à página uma paleta de quatro cores distintas. A paleta de cores deve ser um elemento com `id` denominado `color-palette` e ter mais de 0px de altura e de largura.",
               "timedOut": null,
-              "duration": 1616,
+              "duration": 1569,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -91,11 +91,11 @@
               "code": "cy.get('#color-palette').should('be.visible');\ncy.get('#color-palette').children('.color');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "a9fd2a8a-02a1-4522-8730-029cc7d9676d",
-              "parentUUID": "4dae496d-a57c-485e-903b-c93985b01d55",
+              "uuid": "75745f83-da97-4df6-977f-94b30feaf0d4",
+              "parentUUID": "65e29266-76e5-4370-9a48-42d3a203e424",
               "isHook": false,
               "skipped": false
             },
@@ -112,8 +112,8 @@
               "context": null,
               "code": "cy.get('.color').should('have.length', 4).then(function (colors) {\n  for (var i = 0; i < colors.length; i++) {\n    cy.wrap(colors[i]).should('be.visible');\n  }\n});",
               "err": {},
-              "uuid": "64421b0b-9f2a-4cd3-9606-d40094e7b400",
-              "parentUUID": "4dae496d-a57c-485e-903b-c93985b01d55",
+              "uuid": "1c8dbbcb-68b0-4ae1-8a6b-2ef79865943f",
+              "parentUUID": "65e29266-76e5-4370-9a48-42d3a203e424",
               "isHook": false,
               "skipped": true
             },
@@ -130,8 +130,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).should('have.class', 'color').and('not.have.css', 'background-color', WHITE);\n  cy.wrap(color).should('have.css', 'background-color');\n});",
               "err": {},
-              "uuid": "e9812388-40ab-480d-bd33-7713f2084ecf",
-              "parentUUID": "4dae496d-a57c-485e-903b-c93985b01d55",
+              "uuid": "fa9a4a60-adb2-43dd-a0c1-1c1a24baeaf9",
+              "parentUUID": "65e29266-76e5-4370-9a48-42d3a203e424",
               "isHook": false,
               "skipped": true
             },
@@ -148,8 +148,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).and('have.css', 'border', \"1px solid \".concat(BLACK)).and('have.class', 'color');\n});",
               "err": {},
-              "uuid": "1df6f969-3b91-47a8-a00f-474110dbaeb4",
-              "parentUUID": "4dae496d-a57c-485e-903b-c93985b01d55",
+              "uuid": "124f192b-2b76-47ca-a14d-bf5294118caa",
+              "parentUUID": "65e29266-76e5-4370-9a48-42d3a203e424",
               "isHook": false,
               "skipped": true
             },
@@ -166,8 +166,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  for (var index = 1; index < colors.length; index += 1) {\n    var currentColor = colors[index];\n    var previousColor = colors[index - 1];\n    cy.wrap(currentColor).should('be.onTheRightOf', previousColor).and('be.horizontallyAlignedWith', previousColor);\n  }\n});",
               "err": {},
-              "uuid": "5013d65e-d910-4284-a24f-1e25e9019e91",
-              "parentUUID": "4dae496d-a57c-485e-903b-c93985b01d55",
+              "uuid": "d6b88928-81d1-42c0-8d1c-5814edae989e",
+              "parentUUID": "65e29266-76e5-4370-9a48-42d3a203e424",
               "isHook": false,
               "skipped": true
             },
@@ -184,8 +184,8 @@
               "context": null,
               "code": "cy.get('h1#title').then(function (title) {\n  cy.get('#color-palette').should('be.belowOf', title);\n});",
               "err": {},
-              "uuid": "642d3b5a-2717-4561-a4c2-97dfa2e2809d",
-              "parentUUID": "4dae496d-a57c-485e-903b-c93985b01d55",
+              "uuid": "e1ffa7e1-0ece-49a4-a289-31319c4a682b",
+              "parentUUID": "65e29266-76e5-4370-9a48-42d3a203e424",
               "isHook": false,
               "skipped": true
             },
@@ -202,8 +202,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var allColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  cy.log(allColors);\n  var uniqColors = (0, _toConsumableArray2[\"default\"])(new Set(allColors));\n  cy.log(uniqColors);\n  expect(allColors.length).to.eq(uniqColors.length);\n});",
               "err": {},
-              "uuid": "256cc0dc-595a-4f84-8ce6-6839db21c71f",
-              "parentUUID": "4dae496d-a57c-485e-903b-c93985b01d55",
+              "uuid": "8bfdaba3-ecd7-4020-9399-e57c3ec5122e",
+              "parentUUID": "65e29266-76e5-4370-9a48-42d3a203e424",
               "isHook": false,
               "skipped": true
             }
@@ -211,24 +211,24 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "a9fd2a8a-02a1-4522-8730-029cc7d9676d"
+            "75745f83-da97-4df6-977f-94b30feaf0d4"
           ],
           "pending": [],
           "skipped": [
-            "64421b0b-9f2a-4cd3-9606-d40094e7b400",
-            "e9812388-40ab-480d-bd33-7713f2084ecf",
-            "1df6f969-3b91-47a8-a00f-474110dbaeb4",
-            "5013d65e-d910-4284-a24f-1e25e9019e91",
-            "642d3b5a-2717-4561-a4c2-97dfa2e2809d",
-            "256cc0dc-595a-4f84-8ce6-6839db21c71f"
+            "1c8dbbcb-68b0-4ae1-8a6b-2ef79865943f",
+            "fa9a4a60-adb2-43dd-a0c1-1c1a24baeaf9",
+            "124f192b-2b76-47ca-a14d-bf5294118caa",
+            "d6b88928-81d1-42c0-8d1c-5814edae989e",
+            "e1ffa7e1-0ece-49a4-a289-31319c4a682b",
+            "8bfdaba3-ecd7-4020-9399-e57c3ec5122e"
           ],
-          "duration": 1616,
+          "duration": 1569,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "b39df891-2ce8-4a84-8387-5a1748db968b",
+          "uuid": "461067bc-4d80-4727-a225-3319acf9e69a",
           "title": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores.",
           "fullFile": "",
           "file": "",
@@ -239,7 +239,7 @@
               "title": "Verifica se a primeira cor da paleta é preta",
               "fullTitle": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores. Verifica se a primeira cor da paleta é preta",
               "timedOut": null,
-              "duration": 1411,
+              "duration": 1284,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -249,11 +249,11 @@
               "code": "cy.get('.color').first().should('have.css', 'background-color', BLACK);",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "402fb00c-5102-4eb3-a773-2c5139c70985",
-              "parentUUID": "b39df891-2ce8-4a84-8387-5a1748db968b",
+              "uuid": "59d3c4fa-bae6-4022-927e-837afb077a08",
+              "parentUUID": "461067bc-4d80-4727-a225-3319acf9e69a",
               "isHook": false,
               "skipped": false
             },
@@ -270,8 +270,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(1).should('have.css', 'background-color');\ncy.get('.color').eq(2).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(2).should('have.css', 'background-color');\ncy.get('.color').eq(3).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(3).should('have.css', 'background-color');",
               "err": {},
-              "uuid": "3c542e8a-7d41-46ea-8398-3e98c6718aa4",
-              "parentUUID": "b39df891-2ce8-4a84-8387-5a1748db968b",
+              "uuid": "3d35fe0f-c9e3-41c8-b6dd-c49d3c5ccdc7",
+              "parentUUID": "461067bc-4d80-4727-a225-3319acf9e69a",
               "isHook": false,
               "skipped": true
             }
@@ -279,19 +279,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "402fb00c-5102-4eb3-a773-2c5139c70985"
+            "59d3c4fa-bae6-4022-927e-837afb077a08"
           ],
           "pending": [],
           "skipped": [
-            "3c542e8a-7d41-46ea-8398-3e98c6718aa4"
+            "3d35fe0f-c9e3-41c8-b6dd-c49d3c5ccdc7"
           ],
-          "duration": 1411,
+          "duration": 1284,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "323bb747-11b2-47e8-ab7c-fbe95ec7a9c5",
+          "uuid": "4e5d8d72-4299-40bc-8c80-64d40edc8a4b",
           "title": "4 - Adicione à página um quadro de pixels, com 25 pixels.",
           "fullFile": "",
           "file": "",
@@ -302,7 +302,7 @@
               "title": "Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "fullTitle": "4 - Adicione à página um quadro de pixels, com 25 pixels. Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "timedOut": null,
-              "duration": 1025,
+              "duration": 918,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -312,11 +312,11 @@
               "code": "cy.get('#pixel-board').should('be.visible');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "75f4ce0a-e839-49a9-9f9e-46c27e7fdd96",
-              "parentUUID": "323bb747-11b2-47e8-ab7c-fbe95ec7a9c5",
+              "uuid": "3d2bab54-5614-43b1-bbea-94545030337b",
+              "parentUUID": "4e5d8d72-4299-40bc-8c80-64d40edc8a4b",
               "isHook": false,
               "skipped": false
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "eb74fd76-900b-47e9-a98e-15a840027950",
-              "parentUUID": "323bb747-11b2-47e8-ab7c-fbe95ec7a9c5",
+              "uuid": "a6637b3b-217a-4088-a340-6caea88f99db",
+              "parentUUID": "4e5d8d72-4299-40bc-8c80-64d40edc8a4b",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "c7fa5f2f-ff18-4253-92a4-3763622ad723",
-              "parentUUID": "323bb747-11b2-47e8-ab7c-fbe95ec7a9c5",
+              "uuid": "547f9b2c-3a63-4217-aff2-dfd1aaae5f9b",
+              "parentUUID": "4e5d8d72-4299-40bc-8c80-64d40edc8a4b",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "a179507a-c6e3-486a-adc8-79f6c41c86b3",
-              "parentUUID": "323bb747-11b2-47e8-ab7c-fbe95ec7a9c5",
+              "uuid": "677b2f63-3afe-4117-a7a9-df5efb55fbe9",
+              "parentUUID": "4e5d8d72-4299-40bc-8c80-64d40edc8a4b",
               "isHook": false,
               "skipped": true
             }
@@ -378,21 +378,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "75f4ce0a-e839-49a9-9f9e-46c27e7fdd96"
+            "3d2bab54-5614-43b1-bbea-94545030337b"
           ],
           "pending": [],
           "skipped": [
-            "eb74fd76-900b-47e9-a98e-15a840027950",
-            "c7fa5f2f-ff18-4253-92a4-3763622ad723",
-            "a179507a-c6e3-486a-adc8-79f6c41c86b3"
+            "a6637b3b-217a-4088-a340-6caea88f99db",
+            "547f9b2c-3a63-4217-aff2-dfd1aaae5f9b",
+            "677b2f63-3afe-4117-a7a9-df5efb55fbe9"
           ],
-          "duration": 1025,
+          "duration": 918,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "1a7f67f0-c28d-4614-87ef-05efc7b804bb",
+          "uuid": "9ec07a93-3aa0-4d80-a4f6-45b9b193b4e2",
           "title": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.",
           "fullFile": "",
           "file": "",
@@ -403,7 +403,7 @@
               "title": "Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "fullTitle": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel. Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "timedOut": null,
-              "duration": 1034,
+              "duration": 936,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -413,11 +413,11 @@
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n}).and(function (pixels) {\n  var rows = chunk(pixels, 5);\n  rows.forEach(function (row) {\n    for (var index = 1; index < row.length; index += 1) {\n      var current = pixels[index];\n      var previous = pixels[index - 1];\n      cy.wrap(current).should('be.onTheRightOf', previous).and('be.horizontallyAlignedWith', previous);\n    }\n  });\n  for (var index = 1; index < 5; index += 1) {\n    expect(pixels[index * 5]).to.be.belowOf(pixels[(index - 1) * 5]);\n  }\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "1dfe484f-8b44-4a82-8c28-2d6e561ac57d",
-              "parentUUID": "1a7f67f0-c28d-4614-87ef-05efc7b804bb",
+              "uuid": "5a58beef-247b-477d-851d-21899ab66e1e",
+              "parentUUID": "9ec07a93-3aa0-4d80-a4f6-45b9b193b4e2",
               "isHook": false,
               "skipped": false
             },
@@ -434,8 +434,8 @@
               "context": null,
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'height', '40px').and('have.css', 'width', '40px').and('have.css', 'border', \"1px solid \".concat(BLACK));\n});",
               "err": {},
-              "uuid": "17eb1a53-7642-448b-9390-f62e2e610c00",
-              "parentUUID": "1a7f67f0-c28d-4614-87ef-05efc7b804bb",
+              "uuid": "baa425e2-7db4-4cd6-92af-2e8e1b6069ee",
+              "parentUUID": "9ec07a93-3aa0-4d80-a4f6-45b9b193b4e2",
               "isHook": false,
               "skipped": true
             }
@@ -443,19 +443,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "1dfe484f-8b44-4a82-8c28-2d6e561ac57d"
+            "5a58beef-247b-477d-851d-21899ab66e1e"
           ],
           "pending": [],
           "skipped": [
-            "17eb1a53-7642-448b-9390-f62e2e610c00"
+            "baa425e2-7db4-4cd6-92af-2e8e1b6069ee"
           ],
-          "duration": 1034,
+          "duration": 936,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "00feec6d-2c24-4312-b839-9f99dc7bbfa1",
+          "uuid": "a62cd52d-1a77-4fb6-8006-f630e20a6a9f",
           "title": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels",
           "fullFile": "",
           "file": "",
@@ -466,7 +466,7 @@
               "title": "Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "fullTitle": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "timedOut": null,
-              "duration": 1251,
+              "duration": 831,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -476,11 +476,11 @@
               "code": "cy.get('.selected').first().should('have.css', 'background-color', BLACK);",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "6a27fac2-a31b-473a-b81f-1050108cd329",
-              "parentUUID": "00feec6d-2c24-4312-b839-9f99dc7bbfa1",
+              "uuid": "8b7c00da-0f22-4935-b4a1-e75aa63702a9",
+              "parentUUID": "a62cd52d-1a77-4fb6-8006-f630e20a6a9f",
               "isHook": false,
               "skipped": false
             },
@@ -497,8 +497,8 @@
               "context": null,
               "code": "cy.get('.color:not(:first-child)').each(function (color) {\n  cy.wrap(color).should('not.have.class', 'selected');\n});",
               "err": {},
-              "uuid": "94d5437b-95ed-459b-9fde-2458d52626ca",
-              "parentUUID": "00feec6d-2c24-4312-b839-9f99dc7bbfa1",
+              "uuid": "8a160874-d731-4337-bffb-c09fe05862c1",
+              "parentUUID": "a62cd52d-1a77-4fb6-8006-f630e20a6a9f",
               "isHook": false,
               "skipped": true
             }
@@ -506,19 +506,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "6a27fac2-a31b-473a-b81f-1050108cd329"
+            "8b7c00da-0f22-4935-b4a1-e75aa63702a9"
           ],
           "pending": [],
           "skipped": [
-            "94d5437b-95ed-459b-9fde-2458d52626ca"
+            "8a160874-d731-4337-bffb-c09fe05862c1"
           ],
-          "duration": 1251,
+          "duration": 831,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "db92431c-4bdb-49c6-a838-5e033931c46c",
+          "uuid": "146cbf2d-9967-4410-a2d1-652d12214e68",
           "title": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.",
           "fullFile": "",
           "file": "",
@@ -529,7 +529,7 @@
               "title": "Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "fullTitle": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro. Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "timedOut": null,
-              "duration": 1060,
+              "duration": 1276,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -539,11 +539,11 @@
               "code": "cy.get('.color').each(function (selectedColor, selectedColorIndex) {\n  cy.wrap(selectedColor).click();\n  cy.get('.color').each(function (color, colorIndex) {\n    if (colorIndex === selectedColorIndex) {\n      expect(color).to.have[\"class\"]('selected');\n    } else {\n      expect(color).not.to.have[\"class\"]('selected');\n    }\n  });\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "97fc590c-87db-4ab1-aeb9-9ce3f502e384",
-              "parentUUID": "db92431c-4bdb-49c6-a838-5e033931c46c",
+              "uuid": "47f1af37-f235-4609-b911-4bf26bf2d6e7",
+              "parentUUID": "146cbf2d-9967-4410-a2d1-652d12214e68",
               "isHook": false,
               "skipped": false
             },
@@ -560,8 +560,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('not.have.class', 'selected');\n  });\n});",
               "err": {},
-              "uuid": "8f5c9295-bf70-4a65-af42-25712e56adfd",
-              "parentUUID": "db92431c-4bdb-49c6-a838-5e033931c46c",
+              "uuid": "c95d2543-f74d-4273-a0d3-b08cb0bdbbce",
+              "parentUUID": "146cbf2d-9967-4410-a2d1-652d12214e68",
               "isHook": false,
               "skipped": true
             }
@@ -569,19 +569,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "97fc590c-87db-4ab1-aeb9-9ce3f502e384"
+            "47f1af37-f235-4609-b911-4bf26bf2d6e7"
           ],
           "pending": [],
           "skipped": [
-            "8f5c9295-bf70-4a65-af42-25712e56adfd"
+            "c95d2543-f74d-4273-a0d3-b08cb0bdbbce"
           ],
-          "duration": 1060,
+          "duration": 1276,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f6a36542-afb0-4af4-9bf8-c6419b859ec5",
+          "uuid": "2a8e90e1-9100-4eb1-8cf8-89a7e71774a3",
           "title": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.",
           "fullFile": "",
           "file": "",
@@ -592,7 +592,7 @@
               "title": "Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "fullTitle": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada. Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "timedOut": null,
-              "duration": 905,
+              "duration": 937,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -602,11 +602,11 @@
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).click().should('have.css', 'background-color', BLACK);\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "805dafbb-53ce-41aa-8067-b1209cf60fb5",
-              "parentUUID": "f6a36542-afb0-4af4-9bf8-c6419b859ec5",
+              "uuid": "0b5fbc17-2e5a-4066-8aba-f01c5767f8cb",
+              "parentUUID": "2a8e90e1-9100-4eb1-8cf8-89a7e71774a3",
               "isHook": false,
               "skipped": false
             },
@@ -623,8 +623,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});",
               "err": {},
-              "uuid": "c3c62174-188f-4224-9f39-7acd10e3b807",
-              "parentUUID": "f6a36542-afb0-4af4-9bf8-c6419b859ec5",
+              "uuid": "59ffaf64-a942-4e5d-93b7-92ff3396a00e",
+              "parentUUID": "2a8e90e1-9100-4eb1-8cf8-89a7e71774a3",
               "isHook": false,
               "skipped": true
             },
@@ -641,8 +641,8 @@
               "context": null,
               "code": "var colorToPixelIndexMap = {\n  0: 6,\n  1: 8,\n  2: 16,\n  3: 18\n};\ncy.get('.color').each(function (color, index) {\n  cy.wrap(color).click();\n  var backgroundColor = color.css('background-color');\n  var clickedPixelIndex = colorToPixelIndexMap[index];\n  cy.get('.pixel').eq(clickedPixelIndex).click();\n  cy.get('.pixel').eq(clickedPixelIndex - 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 6).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 6).should('not.have.css', 'background-color', backgroundColor);\n});",
               "err": {},
-              "uuid": "a19ce8ef-edb8-4d27-a636-1aa914032a62",
-              "parentUUID": "f6a36542-afb0-4af4-9bf8-c6419b859ec5",
+              "uuid": "336b0643-cd9e-4239-9059-f65b75a73d22",
+              "parentUUID": "2a8e90e1-9100-4eb1-8cf8-89a7e71774a3",
               "isHook": false,
               "skipped": true
             }
@@ -650,20 +650,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "805dafbb-53ce-41aa-8067-b1209cf60fb5"
+            "0b5fbc17-2e5a-4066-8aba-f01c5767f8cb"
           ],
           "pending": [],
           "skipped": [
-            "c3c62174-188f-4224-9f39-7acd10e3b807",
-            "a19ce8ef-edb8-4d27-a636-1aa914032a62"
+            "59ffaf64-a942-4e5d-93b7-92ff3396a00e",
+            "336b0643-cd9e-4239-9059-f65b75a73d22"
           ],
-          "duration": 905,
+          "duration": 937,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "9ffae0cb-6178-4dfe-b2dc-3f40cbd7c776",
+          "uuid": "86ec2bbb-8318-4f57-9692-7ca3255e79d0",
           "title": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.",
           "fullFile": "",
           "file": "",
@@ -674,7 +674,7 @@
               "title": "Verifica se o botão tem o `id` denominado `clear-board`",
               "fullTitle": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco. Verifica se o botão tem o `id` denominado `clear-board`",
               "timedOut": null,
-              "duration": 1097,
+              "duration": 843,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -684,11 +684,11 @@
               "code": "cy.get('#clear-board').should('be.visible');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "8d86bb28-bd14-4e05-8aad-b7cb5497f443",
-              "parentUUID": "9ffae0cb-6178-4dfe-b2dc-3f40cbd7c776",
+              "uuid": "1c9d80ed-2a4f-4e41-b98d-c1282de6d581",
+              "parentUUID": "86ec2bbb-8318-4f57-9692-7ca3255e79d0",
               "isHook": false,
               "skipped": false
             },
@@ -705,8 +705,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#clear-board').should('be.belowOf', palette);\n});\ncy.get('#clear-board').then(function (clearBtn) {\n  cy.get('#pixel-board').should('be.belowOf', clearBtn);\n});",
               "err": {},
-              "uuid": "5d24b3df-730b-4178-9fc4-31f7a596ded5",
-              "parentUUID": "9ffae0cb-6178-4dfe-b2dc-3f40cbd7c776",
+              "uuid": "99bb97d1-9eb9-4bb0-a85d-cf8f19b1e2aa",
+              "parentUUID": "86ec2bbb-8318-4f57-9692-7ca3255e79d0",
               "isHook": false,
               "skipped": true
             },
@@ -723,8 +723,8 @@
               "context": null,
               "code": "cy.get('#clear-board').should('contain.text', 'Limpar');",
               "err": {},
-              "uuid": "3bdc7b6b-da5b-4dbd-ac86-20927ae3c1cd",
-              "parentUUID": "9ffae0cb-6178-4dfe-b2dc-3f40cbd7c776",
+              "uuid": "29137535-5f02-4780-a20b-bd9cc2884fe2",
+              "parentUUID": "86ec2bbb-8318-4f57-9692-7ca3255e79d0",
               "isHook": false,
               "skipped": true
             },
@@ -741,8 +741,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).then(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});\ncy.get('#clear-board').click();\ncy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'background-color', WHITE);\n});",
               "err": {},
-              "uuid": "94a808ed-d705-42f7-9ad8-b5a4aaf66c90",
-              "parentUUID": "9ffae0cb-6178-4dfe-b2dc-3f40cbd7c776",
+              "uuid": "a47c23ba-4dad-4afa-abea-da2cf2d19ebf",
+              "parentUUID": "86ec2bbb-8318-4f57-9692-7ca3255e79d0",
               "isHook": false,
               "skipped": true
             }
@@ -750,21 +750,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "8d86bb28-bd14-4e05-8aad-b7cb5497f443"
+            "1c9d80ed-2a4f-4e41-b98d-c1282de6d581"
           ],
           "pending": [],
           "skipped": [
-            "5d24b3df-730b-4178-9fc4-31f7a596ded5",
-            "3bdc7b6b-da5b-4dbd-ac86-20927ae3c1cd",
-            "94a808ed-d705-42f7-9ad8-b5a4aaf66c90"
+            "99bb97d1-9eb9-4bb0-a85d-cf8f19b1e2aa",
+            "29137535-5f02-4780-a20b-bd9cc2884fe2",
+            "a47c23ba-4dad-4afa-abea-da2cf2d19ebf"
           ],
-          "duration": 1097,
+          "duration": 843,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+          "uuid": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
           "title": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.",
           "fullFile": "",
           "file": "",
@@ -775,7 +775,7 @@
               "title": "Verifica se existe um input com o id `board-size`",
               "fullTitle": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário. Verifica se existe um input com o id `board-size`",
               "timedOut": null,
-              "duration": 1304,
+              "duration": 916,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -785,11 +785,11 @@
               "code": "cy.get('#board-size').should('be.visible');",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "08ab09f2-8db1-414b-a370-72786309c360",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "17ecfc67-1e30-431c-b1f7-ed86a766d068",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": false
             },
@@ -806,8 +806,8 @@
               "context": null,
               "code": "cy.get('#generate-board').should('be.visible');",
               "err": {},
-              "uuid": "8bc72ff9-3b1e-4a43-bb97-9cd1e3f62c66",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "148b6ba6-089b-4608-b90c-176be2a2e8e4",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             },
@@ -824,8 +824,8 @@
               "context": null,
               "code": "cy.get('#board-size[type=\\'number\\'][min=\\'1\\']');",
               "err": {},
-              "uuid": "cfb77282-2298-4f95-84e6-c660ef10b6c6",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "61204052-ca35-404a-aba2-3ce5affe32bb",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             },
@@ -842,8 +842,8 @@
               "context": null,
               "code": "cy.get('#generate-board').contains(/vqv/i);",
               "err": {},
-              "uuid": "dd086280-6ffb-4a1c-a8b1-7f174a192792",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "1634009f-c920-4c42-9e6d-13057d02ca5d",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             },
@@ -860,8 +860,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#board-size').should('be.belowOf', palette);\n});\ncy.get('#board-size').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "2ae4c7f1-90c7-4b1b-b63c-512219db65cf",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "084d314d-0d65-470e-9773-41184ad54fcf",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             },
@@ -878,8 +878,8 @@
               "context": null,
               "code": "cy.get('#board-size').then(function (board) {\n  cy.get('#generate-board').should('be.onTheRightOf', board);\n});",
               "err": {},
-              "uuid": "29dd01a9-c6f4-44ef-858c-eb56092feaa9",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "ec6afbcb-5cfa-4f67-960b-62fcd2bddd0f",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             },
@@ -896,8 +896,8 @@
               "context": null,
               "code": "var alerted = false;\ncy.on('window:alert', function (msg) {\n  return alerted = msg;\n});\ncy.get('#generate-board').click().then(function () {\n  return expect(alerted).to.match(/Board inválido!/i);\n});",
               "err": {},
-              "uuid": "6b4da460-4ac3-4c7f-8687-7331e8f7dcc0",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "1d2449b7-026e-409d-968f-cd19682c1228",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             },
@@ -914,8 +914,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(10);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 100);",
               "err": {},
-              "uuid": "ca2a44d3-2945-45a2-8fc9-8fba9cb79ed5",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "b43d18ea-08e0-4aa4-8f0d-ef4f92d0ba4a",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             },
@@ -932,8 +932,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(6);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 36).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "0b76537e-1dd3-4f32-abd8-7716ccb44f16",
-              "parentUUID": "a63b23c8-b39b-4200-ae45-31ea153635b4",
+              "uuid": "ba43d6c4-edf9-425f-866a-78b61bcabde1",
+              "parentUUID": "c56ccccc-8186-41d4-83f5-d588a0d2a47b",
               "isHook": false,
               "skipped": true
             }
@@ -941,26 +941,26 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "08ab09f2-8db1-414b-a370-72786309c360"
+            "17ecfc67-1e30-431c-b1f7-ed86a766d068"
           ],
           "pending": [],
           "skipped": [
-            "8bc72ff9-3b1e-4a43-bb97-9cd1e3f62c66",
-            "cfb77282-2298-4f95-84e6-c660ef10b6c6",
-            "dd086280-6ffb-4a1c-a8b1-7f174a192792",
-            "2ae4c7f1-90c7-4b1b-b63c-512219db65cf",
-            "29dd01a9-c6f4-44ef-858c-eb56092feaa9",
-            "6b4da460-4ac3-4c7f-8687-7331e8f7dcc0",
-            "ca2a44d3-2945-45a2-8fc9-8fba9cb79ed5",
-            "0b76537e-1dd3-4f32-abd8-7716ccb44f16"
+            "148b6ba6-089b-4608-b90c-176be2a2e8e4",
+            "61204052-ca35-404a-aba2-3ce5affe32bb",
+            "1634009f-c920-4c42-9e6d-13057d02ca5d",
+            "084d314d-0d65-470e-9773-41184ad54fcf",
+            "ec6afbcb-5cfa-4f67-960b-62fcd2bddd0f",
+            "1d2449b7-026e-409d-968f-cd19682c1228",
+            "b43d18ea-08e0-4aa4-8f0d-ef4f92d0ba4a",
+            "ba43d6c4-edf9-425f-866a-78b61bcabde1"
           ],
-          "duration": 1304,
+          "duration": 916,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4f8f027d-62d9-4a77-910d-03e418186659",
+          "uuid": "a4864d77-beed-4725-b37f-e4e28fdb86b8",
           "title": "11 - Limite o tamanho mínimo e máximo do board.",
           "fullFile": "",
           "file": "",
@@ -971,7 +971,7 @@
               "title": "Verifica se a altura máxima do board é 50",
               "fullTitle": "11 - Limite o tamanho mínimo e máximo do board. Verifica se a altura máxima do board é 50",
               "timedOut": null,
-              "duration": 1053,
+              "duration": 1043,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -981,11 +981,11 @@
               "code": "cy.get('#board-size').clear().type(50);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "5e871ce9-99a4-4311-9985-997a07e12adf",
-              "parentUUID": "4f8f027d-62d9-4a77-910d-03e418186659",
+              "uuid": "fb2cf11c-4523-429f-957e-0b9f460d6247",
+              "parentUUID": "a4864d77-beed-4725-b37f-e4e28fdb86b8",
               "isHook": false,
               "skipped": false
             },
@@ -1002,8 +1002,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(4);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "9eccf570-4ce7-45c6-bb74-985420dd0bfa",
-              "parentUUID": "4f8f027d-62d9-4a77-910d-03e418186659",
+              "uuid": "71f812a5-dc09-4364-814e-562f5e2ac5a1",
+              "parentUUID": "a4864d77-beed-4725-b37f-e4e28fdb86b8",
               "isHook": false,
               "skipped": true
             },
@@ -1020,8 +1020,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(51);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {},
-              "uuid": "6b024939-af00-4d18-aa11-3fd22419b8ba",
-              "parentUUID": "4f8f027d-62d9-4a77-910d-03e418186659",
+              "uuid": "c33d560d-0df8-4b0a-9226-7238e39b702a",
+              "parentUUID": "a4864d77-beed-4725-b37f-e4e28fdb86b8",
               "isHook": false,
               "skipped": true
             }
@@ -1029,20 +1029,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "5e871ce9-99a4-4311-9985-997a07e12adf"
+            "fb2cf11c-4523-429f-957e-0b9f460d6247"
           ],
           "pending": [],
           "skipped": [
-            "9eccf570-4ce7-45c6-bb74-985420dd0bfa",
-            "6b024939-af00-4d18-aa11-3fd22419b8ba"
+            "71f812a5-dc09-4364-814e-562f5e2ac5a1",
+            "c33d560d-0df8-4b0a-9226-7238e39b702a"
           ],
-          "duration": 1053,
+          "duration": 1043,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "e36503cd-e7bb-40f5-b430-2882d7a93df2",
+          "uuid": "3a1d4652-d0a0-4c4f-83aa-975ed9ee18b7",
           "title": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.",
           "fullFile": "",
           "file": "",
@@ -1053,7 +1053,7 @@
               "title": "Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "fullTitle": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página. Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "timedOut": null,
-              "duration": 1308,
+              "duration": 1072,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1063,11 +1063,11 @@
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {
                 "message": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
-                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'\n    at http://localhost:43921/script.js:95:8",
+                "estack": "Uncaught TypeError: Cannot read property 'addEventListener' of null\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'\n    at http://localhost:41627/script.js:95:8",
                 "diff": null
               },
-              "uuid": "b7b1a9d3-1873-4212-81b6-9f574bdc65a1",
-              "parentUUID": "e36503cd-e7bb-40f5-b430-2882d7a93df2",
+              "uuid": "7346acd7-f3fb-4f3e-a78f-f098d0846ee3",
+              "parentUUID": "3a1d4652-d0a0-4c4f-83aa-975ed9ee18b7",
               "isHook": false,
               "skipped": false
             },
@@ -1084,8 +1084,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  expect(previousColors[0]).to.eq(BLACK);\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors[0]).to.eq(BLACK);\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {},
-              "uuid": "48bedadf-758d-4c39-a76b-7b81587ffe34",
-              "parentUUID": "e36503cd-e7bb-40f5-b430-2882d7a93df2",
+              "uuid": "42a9bc23-d923-4d07-afe7-13e78c68b5d3",
+              "parentUUID": "3a1d4652-d0a0-4c4f-83aa-975ed9ee18b7",
               "isHook": false,
               "skipped": true
             }
@@ -1093,13 +1093,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "b7b1a9d3-1873-4212-81b6-9f574bdc65a1"
+            "7346acd7-f3fb-4f3e-a78f-f098d0846ee3"
           ],
           "pending": [],
           "skipped": [
-            "48bedadf-758d-4c39-a76b-7b81587ffe34"
+            "42a9bc23-d923-4d07-afe7-13e78c68b5d3"
           ],
-          "duration": 1308,
+          "duration": 1072,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
