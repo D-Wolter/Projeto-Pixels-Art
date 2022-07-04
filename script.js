@@ -1,13 +1,5 @@
-window.onload = init;
 
-function init() {
-  newPallete();
-  populate(5);
-}
-let cor01 = "";
-let cor02 = "";
-let cor03 = "";
-let cor04 = "";
+
 
 function newPallete() {
   geraCorPaleta("black");
@@ -55,7 +47,12 @@ function populate(size) {
   }
 }
 
+window.onload = init;
 
+function init() {
+  newPallete();
+  populate(5);
+}
 
 function removePixels() {
   let pixs = document.querySelectorAll(".pixel");
