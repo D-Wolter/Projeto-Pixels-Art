@@ -47,10 +47,14 @@ function populate(size) {
   }
 }
 
-window.onload = init;
+let corSelecionada = 'black'
+function setarSelecionada () {
+  
+}
+
 
 function init() {
-  newPallete();
+  // newPallete();
   populate(5);
 }
 
@@ -81,8 +85,4 @@ let geraTabela = document
     }
   });
 
-console.log(paletaCores.children);
-
-let cores1 = paletaCores.firstChild.addEventListener("click", () => {
-  console.log(cores1.classList);
-});
+  window.onload = init;
