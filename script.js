@@ -1,6 +1,53 @@
+let bt1 = document.getElementById('bt1')
+let cor1 = bt1.style.backgroundColor
 
+let bt2 = document.getElementById('bt2')
+let cor2 = bt1.style.backgroundColor
 
+let bt3 = document.getElementById('bt3')
+let cor3 = bt1.style.backgroundColor
 
+let bt4 = document.getElementById('bt4')
+let cor4 = bt1.style.backgroundColor
+
+let corSelecionada  = 'black'
+
+function setarSelecionada (c) { 
+  corSelecionada = c
+}
+
+bt1.addEventListener('click', (cor1) => {
+  bt1.className = 'color selected'
+  bt2.className = 'color'
+  bt3.className = 'color'
+  bt4.className = 'color'
+  corSelecionada = cor1
+  console.log(corSelecionada)
+})
+bt2.addEventListener('click', (cor2) => {
+  bt1.className = 'color'
+  bt2.className = 'color selected'
+  bt3.className = 'color'
+  bt4.className = 'color'
+  corSelecionada = cor2
+  console.log(corSelecionada)
+})
+bt3.addEventListener('click', (cor3) => {
+  bt1.className = 'color'
+  bt2.className = 'color'
+  bt3.className = 'color selected'
+  bt4.className = 'color'
+  corSelecionada = cor3
+  console.log(corSelecionada)
+})
+bt4.addEventListener('click', (cor4) => {
+  bt1.className = 'color'
+  bt2.className = 'color'
+  bt3.className = 'color'
+  bt4.className = 'color selected'
+  corSelecionada = cor4
+  console.log(corSelecionada)
+})
 function newPallete() {
   geraCorPaleta("black");
   document.getElementsByClassName("color")[0].className =
@@ -36,6 +83,8 @@ function gerar_cor_hex() {
   );
 }
 
+
+
 let quadro = document.getElementById("pixel-board");
 
 function populate(size) {
@@ -47,14 +96,11 @@ function populate(size) {
   }
 }
 
-let corSelecionada = 'black'
-function setarSelecionada () {
-  
-}
+
 
 
 function init() {
-  
+
   // newPallete();
   populate(5);
 }
@@ -87,3 +133,6 @@ let geraTabela = document
   });
 
   window.onload = init;
+  
+
+  console.log(corSelecionada);
