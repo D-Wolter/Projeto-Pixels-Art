@@ -86,9 +86,3 @@ console.log(paletaCores.children);
 let cores1 = paletaCores.firstChild.addEventListener("click", () => {
   console.log(cores1.classList);
 });
-
-console.log(cores1);
-let botao2 = document.getElementById("bt2");
-botao2.addEventListener("click", () => {
-  console.log(botao2.style.backgroundColor);
-});
