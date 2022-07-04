@@ -22,31 +22,31 @@ bt1.addEventListener('click', (cor1) => {
   bt3.className = 'color'
   bt4.className = 'color'
   corSelecionada = cor1
-  console.log(corSelecionada)
+  
 })
 bt2.addEventListener('click', (cor2) => {
   bt1.className = 'color'
   bt2.className = 'color selected'
   bt3.className = 'color'
   bt4.className = 'color'
-  corSelecionada = cor2
-  console.log(corSelecionada)
+  corSelecionada = 'red'
+  
 })
 bt3.addEventListener('click', (cor3) => {
   bt1.className = 'color'
   bt2.className = 'color'
   bt3.className = 'color selected'
   bt4.className = 'color'
-  corSelecionada = cor3
-  console.log(corSelecionada)
+  corSelecionada = 'blue'
+  
 })
 bt4.addEventListener('click', (cor4) => {
   bt1.className = 'color'
   bt2.className = 'color'
   bt3.className = 'color'
   bt4.className = 'color selected'
-  corSelecionada = cor4
-  console.log(corSelecionada)
+  corSelecionada = 'green'
+  
 })
 function newPallete() {
   geraCorPaleta("black");
