@@ -72,13 +72,19 @@ function gerar_cor_hex() {
 let quadro = document.getElementById("pixel-board");
 
 function populate(size) {
-  quadro.style.setProperty("--size", size);
+  if (size < 5) {
+    size = 5
+  }
+  if (size >= 5) {
+    quadro.style.setProperty("--size", size);
   for (let i = 0; i < size * size; i++) {
     let div = document.createElement("div");
     div.classList.add("pixel");
     div.addEventListener('click', () => {div.style.backgroundColor = corSelecionada})
     quadro.append(div);
   }
+  }
+  
 }
 
 
@@ -111,7 +117,10 @@ let geraTabela = document
     let v = n.value;
     if (v < 0) {
       alert("Board inválido!");
-    } else {
+    } if (v === ''){
+      alert("Board inválido!");
+    }
+    else {
       removePixels();
       populate(v);
     }
@@ -120,7 +129,7 @@ let geraTabela = document
   window.onload = init;
   
 
-  console.log(corSelecionada);
+
 
   // function newPallete() {
 //   geraCorPaleta("black");
