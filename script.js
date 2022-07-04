@@ -75,6 +75,9 @@ function populate(size) {
   if (size < 5) {
     size = 5
   }
+  if (size > 50) {
+    size = 50
+  }
   if (size >= 5) {
     quadro.style.setProperty("--size", size);
   for (let i = 0; i < size * size; i++) {
