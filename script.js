@@ -3,18 +3,18 @@ let cor1 = bt1.style.backgroundColor;
 
 let bt2 = document.getElementById('bt2');
 let cor2 = bt2.style.backgroundColor;
-cor2 = gerar_cor_hex()
-bt2.style.backgroundColor = cor2
+cor2 = gerar_cor_hex();
+bt2.style.backgroundColor = cor2;
 
 let bt3 = document.getElementById('bt3');
 let cor3 = bt3.style.backgroundColor;
-cor3 = gerar_cor_hex()
-bt3.style.backgroundColor = cor3
+cor3 = gerar_cor_hex();
+bt3.style.backgroundColor = cor3;
 
 let bt4 = document.getElementById('bt4');
 let cor4 = bt4.style.backgroundColor;
-cor4 = gerar_cor_hex()
-bt4.style.backgroundColor = cor4
+cor4 = gerar_cor_hex();
+bt4.style.backgroundColor = cor4;
 let corSelecionada = 'black';
 
 function setarSelecionada(c) {
@@ -90,11 +90,6 @@ function populate(size) {
   }
 }
 
-function init() {
-  
-  populate(5);
-}
-
 function removePixels() {
   let pixs = document.querySelectorAll('.pixel');
   for (v of pixs) {
@@ -125,4 +120,6 @@ let geraTabela = document
     }
   });
 
-window.onload = init;
+window.onload = () => {
+  populate(5);
+};
