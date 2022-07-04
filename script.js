@@ -54,6 +54,7 @@ function setarSelecionada () {
 
 
 function init() {
+  
   // newPallete();
   populate(5);
 }
