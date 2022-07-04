@@ -92,6 +92,7 @@ function populate(size) {
   for (let i = 0; i < size * size; i++) {
     let div = document.createElement("div");
     div.classList.add("pixel");
+    div.addEventListener('click', () => {div.style.backgroundColor = corSelecionada})
     quadro.append(div);
   }
 }
