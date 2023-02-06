@@ -8,7 +8,6 @@
   
  # Requisitos do projeto
  
-Obrigatórios
  1 - Adicione à página o título "Paleta de Cores".
 
  2 - Adicione à página uma paleta de quatro cores distintas.
@@ -27,7 +26,6 @@ Obrigatórios
 
  9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.
 
-Bônus
  10 - Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.
 
  11 - Limite o tamanho mínimo e máximo do board.
