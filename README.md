@@ -6,7 +6,7 @@
   -DOM e Seletores;
   -Eventos;
   
-  <img src="./Screenshot_339.png" alt="Pixels art" />
+  <img src="./Screenshot_349.png" alt="Pixels art" />
   
  # Requisitos do projeto
  
