@@ -1,4 +1,4 @@
-# Características do Projeto:
+# Características do Projeto: Pixels-Art
 
 
 Entender como funciona a estrutura (HTML) de uma página;
