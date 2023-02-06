@@ -1,13 +1,35 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Características do Projeto:
+*Entender como funciona a estrutura (HTML) de uma página;
+*Entender como o estilo (CSS) é aplicado à página;
+*Construir páginas utilizando HTML e CSS;
+*JavaScript;
+  -DOM e Seletores;
+  -Eventos;
+  
+ # Requisitos do projeto
+ 
+Obrigatórios
+ 1 - Adicione à página o título "Paleta de Cores".
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+ 2 - Adicione à página uma paleta de quatro cores distintas.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+ 3 - Adicione a cor preta como a primeira cor da paleta de cores.
+
+ 4 - Adicione à página um quadro de pixels, com 25 pixels.
+
+ 5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.
+
+ 6 - Defina a cor preta como cor inicial. Ao carregar a página, a cor preta já deve estar selecionada para pintar os pixels
+
+ 7 - Clicar em uma das cores da paleta faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.
+
+ 8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta faz com que o pixel seja preenchido com a cor selecionada.
+
+ 9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.
+
+Bônus
+ 10 - Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.
+
+ 11 - Limite o tamanho mínimo e máximo do board.
+
+ 12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.
