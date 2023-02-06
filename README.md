@@ -1,10 +1,17 @@
 # Características do Projeto:
-*Entender como funciona a estrutura (HTML) de uma página;
-*Entender como o estilo (CSS) é aplicado à página;
-*Construir páginas utilizando HTML e CSS;
-*JavaScript;
-  -DOM e Seletores;
-  -Eventos;
+
+
+Entender como funciona a estrutura (HTML) de uma página;
+
+Entender como o estilo (CSS) é aplicado à página;
+
+Construir páginas utilizando HTML e CSS;
+
+JavaScript;
+
+DOM e Seletores;
+
+Eventos;
   
   <img src="./Screenshot_349.png" alt="Pixels art" />
   
