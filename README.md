@@ -33,3 +33,12 @@
  11 - Limite o tamanho mínimo e máximo do board.
 
  12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.
+ 
+ ## Iniciar
+
+Para rodar esse projeto no seu computador, abra o terminal e siga o passo-a-passo a seguir:
+
+1. selecione no vscode o arquivo index.js
+2. Inicialize o projeto com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do [Visual Studio Code](https://code.visualstudio.com/) `Go Live`
+3. O navegador vai abrir uma nova aba com a página do projeto 
+
