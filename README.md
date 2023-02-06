@@ -6,6 +6,8 @@
   -DOM e Seletores;
   -Eventos;
   
+  <img src="./Screenshot_339.png" alt="Pixels art" />
+  
  # Requisitos do projeto
  
  1 - Adicione à página o título "Paleta de Cores".
